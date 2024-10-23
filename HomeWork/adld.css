@@ -1,0 +1,285 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/**Part 1**/
+
+.logo{
+  float: left;
+  margin: 3px;
+  margin-left: 10%;
+}
+.nav{
+  float: right;
+  margin-right: 10%;
+  padding: 10px;
+}
+.nav a{
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+}
+.nav a.active{
+  color: royalblue;
+  border-top: solid royalblue 1px ;
+  padding-top: 10px;
+}
+
+/**Part 2**/
+
+.showCase{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-image: linear-gradient(to bottom left,rgb(2,34,91),rgb(46,126,237));
+  border-radius: 0 0 50% 50%;
+  width: 80%;
+  padding: 100px;
+}
+.text1{
+  color: white;
+}
+.text2{
+  color: white;
+  font-size: 10px;
+}
+.mobile{
+  grid-area: 1/2/4/3;
+}
+.download{
+  height: 50px;
+  width: 200px;
+  background-color: rgb(46, 126, 237);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-top: 50px;
+}
+.download:active{
+  border-top: solid mediumblue 5px;
+  border-right: solid mediumblue 5px;
+  transform: translate(-10px,5px);
+}
+/***Part 3**/
+
+.pics{
+  box-shadow: 0 7px 10px black;
+  display: flex;
+  justify-content: center;
+  margin: 0 100px 0 100px;
+}
+.picsIn{
+  text-align: center;
+  padding: 20px;
+}
+.text3{
+  font-size: 10px;
+}
+.picsInImg{
+  height: 30px;
+  width: 30px;
+}
+
+/***Part 4**/
+
+.increase1{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 70px;
+}
+.mobile1{
+  height: 400px;
+  width: 400px;
+  grid-row: 1/3;
+}
+.humanFace{
+  height: 20px;
+  width: 20px;
+}
+.invision{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.mobile2{
+  height: 400px;
+  width: 400px;
+  grid-area: 1/2/3/2;
+}
+.increase2{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 80px 0 80px 100px;
+  
+}
+
+/***Part 5**/
+
+.interFace{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: whitesmoke;
+  gap: 50px;
+  width: 90%;
+  padding: 50px;
+}
+.interFaceText{
+  text-align: center;
+  grid-column: 1/3;
+}
+.iphone-ipad{
+  height: 300px;
+  width: 450px;
+}
+.fourDiv{
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 7px 10px gray;
+}
+.art{
+  height: 20px;
+  width: 20px;
+}
+.strategist{
+  height: 20px;
+  width: 20px;
+}
+.bookmark{
+  height: 20px;
+  width: 20px;
+}
+.pulse{
+  height: 20px;
+  width: 20px;
+}
+.text4{
+  font-size: 10px;
+}
+
+/***Part 6**/
+
+.mobile4{
+  width: 100.5%;
+  height: 500px;
+}
+.watchDiv{
+  position: relative;
+}
+.watch{
+  position: absolute;
+  top: 100px;
+  left: 350px;
+  color: white;
+}
+.vivamus{
+  position: absolute;
+  top: 170px;
+  left: 270px;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+.blueButton{
+  position: absolute;
+  background-color: rgb(46,126,237);
+  top: 250px;
+  left: 440px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.triangle{
+  position: absolute;
+  border: rgb(46,126,237) 25px solid;
+  border-left-color: white;
+  top: 275px;
+  left: 480px;
+}
+/***Part 7**/
+
+.twoPics{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.inTwoPics1{
+  box-shadow: 0 7px 10px black;
+  margin: 70px 10px 0 70px ;
+  padding: 30px;
+}
+.inTwoPics2{
+  box-shadow: 0 7px 10px black;
+  margin: 70px 70px 0 10px;
+  padding: 30px;
+}
+.inTwoPicsP{
+  font-size: 13px;
+}
+.humanFace1{
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+.circls{
+display: flex;
+justify-content: center;
+}
+.circl{
+  height: 5px;
+  width: 5px;
+  background-color: gray;
+  margin: 25px 10px 0 10px ;
+  border-radius: 50%;
+}
+.circlBlue{
+  height: 5px;
+  width: 5px;
+  background-color: rgb(46,126,237);
+  margin: 25px 10px 25px 10px ;
+  border-radius: 50%;
+}
+
+/***Part 8**/
+
+footer{
+  background-color: rgb(26,27,31);
+  width: 100.5%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.foot{
+  margin: 80px 0 0 80px;
+}
+.soical{
+  height: 20px;
+  width: 20px;
+  float: left;
+  margin: 0px 0 0 10px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgb(68, 71, 78);
+}
+.footerList{
+  color: white;
+  right: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 50px;
+}
+li{
+  list-style: none;
+  color: gray;
+  line-height: 30px;
+}
+.text5{
+  color: white;
+  float: left;
+  margin: 100px 50px 50px 10px;
+}
+.text6{
+  margin: 0 50px 20px 40px;
+}
